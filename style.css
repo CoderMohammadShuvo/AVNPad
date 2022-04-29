@@ -1,0 +1,626 @@
+@font-face {
+  font-family: FuturaRegular;
+  src: url('./fonts/Futura\ Book\ font.ttf');
+}
+@font-face {
+  font-family: FuturaMedium;
+  src: url('./fonts/futura\ medium\ bt.ttf');
+}
+@font-face {
+  font-family: FuturaBold;
+  src: url('./fonts/Futura\ Bold\ font.ttf');
+}
+@font-face {
+  font-family: FuturaLight;
+  src: url('./fonts/futura\ light\ bt.ttf');
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #152a25;
+}
+
+.home {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('./assets/bgtop.png'), url('./assets/Group\ 48095436.png'),
+    url('./assets/Group\ 48095437.png'), url('./assets/bggddf.png'),
+    url('./assets/token.png'), url('./assets/lastBg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 1457.18px, 100% 1400px, 100% 800px, 100% 1200px,
+    100% 2000px, 100% 1100px;
+  background-position: left 300px, left 1800px, left 3000px, left 4100px,
+    left 4800px, left 6800px;
+}
+.navbar {
+  width: 1140px;
+  height: 140px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.socialLink {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+
+  margin-top: 0px;
+  margin-bottom: -17px;
+}
+#bar {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* HERO_SECTION */
+.heroSection {
+  height: 100%;
+  width: 1140px;
+  display: flex;
+}
+.heroLeft h1 {
+  font-family: FuturaRegular;
+  font-weight: 800;
+  font-size: 71.51px;
+  color: #ffffff;
+  letter-spacing: -2.07215px;
+  line-height: 84px;
+  margin-bottom: 0;
+}
+.heroLeft h2 {
+  font-family: FuturaRegular;
+  font-weight: 800;
+  font-size: 52.51px;
+  color: #ffffff;
+  letter-spacing: -2.07215px;
+  line-height: 62px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.heroLeft h3 {
+  font-family: FuturaRegular;
+  font-weight: 800;
+  font-size: 41.51px;
+  color: #ffffff;
+  letter-spacing: -2.07215px;
+  line-height: 49px;
+  margin-top: 10px;
+}
+.heroLeft p {
+  font-family: FuturaMedium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.51px;
+  line-height: 27px;
+  color: #ffffff;
+}
+.heroSection img {
+  width: 376px;
+  height: 696px;
+}
+.heroLeft {
+  margin-left: 100px;
+  width: 60%;
+
+  background: url('./assets/Group\ 48095370.png');
+  background-size: 100% 500px;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+#buyOnButton {
+  width: 285px;
+  height: 65px;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #cdffaa 0%, #5bf243 100%);
+  box-shadow: inset 0px -2px 2px 1px #166c32;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 19px;
+  color: #1c8e42;
+  font-family: FuturaMedium;
+  cursor: pointer;
+  margin-top: 20px;
+}
+#checkIdoButton {
+  width: 282px;
+  height: 71px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin-top: 30px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 19px;
+  color: white;
+  font-family: FuturaMedium;
+  cursor: pointer;
+}
+#launchpad {
+  width: 162px;
+  height: 71px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin-left: 20px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 19px;
+  color: white;
+  font-family: FuturaMedium;
+  cursor: pointer;
+}
+
+/* PARTNERS */
+.partners {
+  width: 1140px;
+  height: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+}
+.partners img {
+  margin-right: 50px;
+}
+
+/* CONTRACT ADDRESS */
+.contractAddress {
+  width: 1044px;
+  height: 408.15px;
+
+  padding-left: 70px;
+  background: url('./assets/Group\ 48095435.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.walletAddress {
+  width: 892px;
+  height: 110px;
+  background: #0e1d19;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contractAddress h2 {
+  font-weight: 800;
+  font-size: 52.51px;
+  letter-spacing: -2.07215px;
+  color: #ffffff;
+  font-family: FuturaRegular;
+  margin-bottom: 0;
+}
+.contractAddress h1 {
+  font-weight: 800;
+  font-size: 71.51px;
+  letter-spacing: -2.07215px;
+  color: #ffffff;
+  font-family: FuturaRegular;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.walletAddress p {
+  font-family: FuturaMedium;
+  color: #e0fe4c;
+  font-weight: 500;
+  font-size: 30px;
+}
+#copyWallet {
+  margin-left: 370px;
+}
+
+/* AVN REACH */
+.avnReach {
+  height: 1300px;
+  width: 1040px;
+}
+
+.avnReach h2 {
+  font-family: FuturaRegular;
+  font-weight: 800;
+  letter-spacing: -2.07215px;
+  font-size: 52.51px;
+  color: #ffffff;
+  text-align: right;
+  margin-bottom: 0;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.avnReach h1 {
+  font-weight: 800;
+  font-size: 71.51px;
+  letter-spacing: -2.07215px;
+  font-family: FuturaRegular;
+  color: #ffffff;
+  text-align: right;
+  margin-top: 0;
+  margin-right: 50px;
+}
+.firstAvn {
+  height: 500px;
+  width: 100%;
+  display: flex;
+}
+.rightAvnFirstTop {
+  display: flex;
+}
+.leftAvnFirst {
+  width: 308.25px;
+  height: 474.23px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin-left: 60px;
+}
+.rightAnvFirstTopLeft {
+  width: 267.94px;
+  height: 239.48px;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rightAvnSecond {
+  width: 559.59px;
+  height: 214.19px;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#secondLeftTOp {
+  margin-top: 0;
+  margin-left: 60px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#secondLeftBottom {
+  margin-left: 30px;
+}
+#secondRight {
+  margin-left: 20px;
+}
+.leftAvnFirst {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.leftAvnFirst img {
+  width: 124.57px;
+  height: 121.96px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.contractAIudit {
+  font-weight: 400;
+  font-size: 20.51px;
+
+  font-family: FuturaRegular;
+  color: white;
+  margin-bottom: 0;
+  margin: 0 30px;
+}
+.should {
+  font-weight: 300;
+  font-size: 15.51px;
+  font-family: FuturaRegular;
+  color: white;
+  margin: 20px 30px;
+}
+#bigSHuvo {
+  display: flex;
+  align-items: center;
+}
+#bigSHuvo img {
+  width: 130.17px;
+  height: 126.39px;
+  margin-right: 30px;
+}
+#bigSHuvo p {
+  font-weight: 400;
+  font-size: 20.51px;
+
+  font-family: FuturaRegular;
+  color: white;
+  margin: 0 30px;
+}
+#bigSHuvo h6 {
+  font-weight: 300;
+  font-size: 15.51px;
+  font-family: FuturaRegular;
+  color: white;
+  margin: 20px 30px;
+}
+
+/* TERMS AND CONDITION */
+.termsAndCondition {
+  height: 1200px;
+  width: 1030px;
+}
+.termsAndCondition h1 {
+  font-weight: 800;
+  font-size: 71.51px;
+  letter-spacing: -2.07215px;
+  font-family: FuturaRegular;
+  color: #ffffff;
+  margin-bottom: 0;
+  margin-left: 50px;
+}
+.termsAndCondition h3 {
+  font-weight: 800;
+  font-size: 52.51px;
+  line-height: 62px;
+  letter-spacing: -2.07215px;
+  font-family: FuturaRegular;
+  color: #ffffff;
+  margin-top: 0;
+  margin-left: 50px;
+}
+.termsAndCondionBox {
+  margin-left: 30px;
+  width: 892px;
+  height: 900px;
+  background: url('./assets/tandc.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+#tandCFirsId {
+  padding-top: 50px;
+}
+.tandcFirst {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+
+  margin-bottom: -20px;
+}
+.tandcFirst p {
+  font-family: FuturaRegular;
+  font-weight: 400;
+  font-size: 15.51px;
+  color: #ffffff;
+  margin-left: 15px;
+}
+#tandcOther {
+  font-weight: 500;
+  font-size: 15.51px;
+  color: #e0fe4c;
+  font-family: FuturaMedium;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+/* AVN REACH */
+.avnRich {
+  height: 100%;
+  width: 1000px;
+}
+
+.avnRich h2 {
+  font-weight: 800;
+  font-size: 52.51px;
+  margin-bottom: 0;
+  letter-spacing: -2.07215px;
+  font-family: FuturaRegular;
+  color: #ffffff;
+  margin-left: 800px;
+  margin-top: 200px;
+}
+.avnRich h1 {
+  font-size: 71.51px;
+  line-height: 84px;
+  letter-spacing: -2.07215px;
+  font-family: FuturaRegular;
+  color: #ffffff;
+  margin-top: 0;
+  margin-left: 700px;
+}
+
+.avnRich p {
+  font-size: 17.51px;
+  line-height: 28px;
+  /* or 160% */
+  font-family: FuturaRegular;
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+.multiChain {
+  height: 100%;
+  width: 1040px;
+}
+.multiChain h2 {
+  font-weight: 800;
+  font-size: 52.51px;
+  margin-bottom: 0;
+  letter-spacing: -2.07215px;
+  font-family: FuturaRegular;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 200px;
+}
+.multiChain h1 {
+  font-size: 71.51px;
+  line-height: 84px;
+  letter-spacing: -2.07215px;
+  font-family: FuturaRegular;
+  color: #ffffff;
+  margin-top: 0;
+  text-align: center;
+}
+.multichainLogoFirst {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.multichainLogoFirst img {
+  margin-left: 60px;
+}
+#multichainLogoSecond {
+  margin-top: 50px;
+}
+
+.tokenomics {
+  height: 1500px;
+  width: 1000px;
+}
+.tokenomics h2 {
+  font-weight: 800;
+  font-size: 52.51px;
+  margin-bottom: 0;
+  letter-spacing: -2.07215px;
+  font-family: FuturaRegular;
+  color: #ffffff;
+  margin-top: 200px;
+}
+.tokenomics h1 {
+  font-size: 71.51px;
+  line-height: 84px;
+  letter-spacing: -2.07215px;
+  font-family: FuturaRegular;
+  color: #ffffff;
+  margin-top: 0;
+}
+#chart {
+  margin-left: 100px;
+}
+.tokenomicsDirection {
+  display: flex;
+  width: 60%;
+  margin-left: 200px;
+}
+.tokenomicsDirection img {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.lastBanner {
+  height: 400px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lastBannerBody {
+  width: 892px;
+  height: 230px;
+  background: url('./assets/Group\ 48095428.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lastBannerBody h1 {
+  font-family: FuturaBold;
+  background: linear-gradient(180deg, #264732 0%, #828e4c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 32px;
+}
+.lastBannerBody img {
+  cursor: pointer;
+}
+.footer {
+  height: 400px;
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerOne {
+  margin-top: 100px;
+}
+.footerOne p {
+  font-weight: 400;
+  font-size: 13.51px;
+  font-family: FuturaRegular;
+  color: white;
+}
+.footerOne h4 {
+  font-weight: 400;
+  font-size: 12.51px;
+
+  /* identical to box height, or 176% */
+
+  font-family: FuturaRegular;
+  color: #d7fd4c;
+  margin-bottom: -30px;
+}
+#emailInput {
+  width: 272px;
+  height: 47px;
+  background: #0e1d19;
+  border-radius: 12px;
+  border: none;
+  padding-left: 20px;
+}
+#emailSendButton {
+  margin-bottom: -45px;
+  margin-left: -40px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.footerTwo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.footerTwo h4 {
+  font-weight: 500;
+  font-size: 15.51px;
+  line-height: 21px;
+  /* identical to box height */
+
+  font-family: FuturaMedium;
+  color: #ffffff;
+}
+.footerTwo a {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 15.51px;
+  line-height: 22px;
+  /* or 142% */
+  font-family: FuturaLight;
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+.footerSocial {
+  margin-top: 100px;
+}

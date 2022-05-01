@@ -26,6 +26,7 @@ body {
 }
 
 .home {
+  overflow: hidden;
   width: 100%;
   height: 100%;
   display: flex;
@@ -623,4 +624,515 @@ body {
 }
 .footerSocial {
   margin-top: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('./assets/mobFirstBg.png'),
+      url('./assets/Group\ 48095456.png'), url('./assets/Group\ 48095457.png'),
+      url('./assets/Group\ 48095458.png'), url('./assets/Group\ 48095459.png'),
+      url('./assets/Group\ 48095460.png');
+    background-size: 100% 871px, 100% 1700px, 100% 2320px, 100% 1400px,
+      100% 650px, 100% 1300px;
+    background-position: left 800px, left 1700px, left 3500px, left 5700px,
+      left 7700px, left 8700px;
+    background-repeat: no-repeat;
+  }
+  .navbar {
+    width: 350px;
+    height: 140px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .socialLink {
+    display: none;
+  }
+  .heroSection {
+    height: 100%;
+    width: 350px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .heroLeft {
+    margin-left: 0px;
+    width: 100%;
+    background: url('./assets/Group\ 48095370.png');
+    background-size: 100% 500px;
+    background-position: left top;
+    background-repeat: no-repeat;
+  }
+  #bar {
+    width: 24px;
+    height: 24px;
+    margin-left: 0px;
+    cursor: pointer;
+  }
+  .heroSection img {
+    width: 338px;
+    height: 652px;
+  }
+  .heroLeft h1 {
+    font-family: FuturaRegular;
+    font-weight: 800;
+    font-size: 47.51px;
+    color: #ffffff;
+    letter-spacing: -2.07215px;
+    line-height: 84px;
+    margin-bottom: 0;
+  }
+  .heroLeft h2 {
+    font-family: FuturaRegular;
+    font-weight: 800;
+    font-size: 33.51px;
+    color: #ffffff;
+    letter-spacing: -2.07215px;
+    line-height: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .heroLeft h3 {
+    font-family: FuturaRegular;
+    font-weight: 800;
+    font-size: 28.51px;
+    color: #ffffff;
+    letter-spacing: -2.07215px;
+    line-height: 30px;
+    margin-top: 10px;
+  }
+  .heroLeft p {
+    font-family: FuturaMedium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.51px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  #buyOnButton {
+    width: 231px;
+    height: 65px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #cdffaa 0%, #5bf243 100%);
+    box-shadow: inset 0px -2px 2px 1px #166c32;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 15px;
+    color: #1c8e42;
+    font-family: FuturaMedium;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  #checkIdoButton {
+    width: 162px;
+    height: 61px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    margin-top: 30px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 11px;
+    color: white;
+    font-family: FuturaMedium;
+    cursor: pointer;
+  }
+  #launchpad {
+    width: 119px;
+    height: 61px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    margin-left: 5px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 11px;
+    color: white;
+    font-family: FuturaMedium;
+    cursor: pointer;
+  }
+  .partners {
+    width: 350px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 88px;
+    flex-wrap: wrap;
+  }
+  .partners img {
+    margin-right: 25px;
+    margin-top: 44px;
+  }
+  .contractAddress {
+    width: 350px;
+    height: 408.15px;
+    padding-left: 0px;
+    background: url('./assets/Group\ 48095435.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
+  .contractAddress h2 {
+    font-weight: 800;
+    font-size: 32.51px;
+    letter-spacing: -2.07215px;
+    color: #ffffff;
+    font-family: FuturaRegular;
+    margin-bottom: 0;
+  }
+  .contractAddress h1 {
+    font-weight: 800;
+    font-size: 50.51px;
+    letter-spacing: -2.07215px;
+    color: #ffffff;
+    font-family: FuturaRegular;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .walletAddress {
+    width: 100%;
+    height: 70px;
+    background: #0e1d19;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .walletAddress p {
+    font-family: FuturaMedium;
+    color: #e0fe4c;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  #copyWallet {
+    margin-left: 104px;
+    width: 122.17px;
+    height: 54.02px;
+    margin-top: -12px;
+  }
+  .avnReach {
+    height: 100%;
+    width: 350px;
+  }
+  .avnReach h2 {
+    font-family: FuturaRegular;
+    font-weight: 800;
+    letter-spacing: -2.07215px;
+    font-size: 32.51px;
+    color: #ffffff;
+    text-align: right;
+    margin-bottom: 0;
+    margin-right: 10px;
+    margin-top: 50px;
+  }
+  .avnReach h1 {
+    font-weight: 800;
+    font-size: 50.51px;
+    letter-spacing: -2.07215px;
+    font-family: FuturaRegular;
+    color: #ffffff;
+    text-align: right;
+    margin-top: 0;
+    margin-right: 10px;
+  }
+  .firstAvn {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .leftAvnFirst {
+    width: 262.25px;
+    height: 318.23px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    margin-left: 46px;
+  }
+  .leftAvnFirst img {
+    width: 87.57px;
+    height: 86.96px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .rightAvnFirstTop {
+    display: flex;
+    flex-direction: column;
+  }
+  .rightAnvFirstTopLeft {
+    width: 267.94px;
+    height: 239.48px;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-left: 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .rightAvnSecond {
+    width: 272.59px;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  #bigSHuvo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #bigSHuvo img {
+    width: 101.17px;
+    height: 126.39px;
+    margin-right: 103px;
+  }
+  .rightAnvFirstTopLeft {
+    width: 267.94px;
+    height: 239.48px;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  #secondLeftTOp {
+    margin-top: 0;
+    margin-left: 37px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #secondRight {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .termsAndCondition {
+    height: 1200px;
+    width: 350px;
+  }
+  .termsAndCondition h1 {
+    font-weight: 800;
+    font-size: 50.51px;
+    letter-spacing: -2.07215px;
+    font-family: FuturaRegular;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-left: 10px;
+  }
+  .termsAndCondition h3 {
+    font-weight: 800;
+    font-size: 31.51px;
+    line-height: 62px;
+    letter-spacing: -2.07215px;
+    font-family: FuturaRegular;
+    color: #ffffff;
+    margin-top: 0;
+    margin-left: 6px;
+  }
+  .termsAndCondionBox {
+    margin-left: 0px;
+    width: 350px;
+    height: 100%;
+    background: url('./assets/tandc.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
+  #tandCFirsId {
+    padding-top: 0px;
+  }
+  .tandcFirst {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 19px;
+    margin-bottom: 51px;
+  }
+  .tandcFirst p {
+    font-family: FuturaRegular;
+    font-weight: 400;
+    font-size: 10.51px;
+    color: #ffffff;
+    margin-left: 6px;
+    margin-right: 17px;
+  }
+  #tandcOther {
+    font-weight: 500;
+    font-size: 11.51px;
+    color: #e0fe4c;
+    font-family: FuturaMedium;
+    margin-left: 29px;
+    margin-top: 50px;
+  }
+  .avnRich {
+    height: 100%;
+    width: 350px;
+  }
+  .avnRich h2 {
+    font-weight: 800;
+    font-size: 31.51px;
+    margin-bottom: 0;
+    letter-spacing: -2.07215px;
+    font-family: FuturaRegular;
+    color: #ffffff;
+    margin-left: 0px;
+    margin-top: 514px;
+  }
+  .avnRich h1 {
+    font-size: 50.51px;
+    line-height: 84px;
+    letter-spacing: -2.07215px;
+    font-family: FuturaRegular;
+    color: #ffffff;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .avnRich p {
+    font-size: 14.51px;
+    line-height: 24px;
+    font-family: FuturaRegular;
+    color: #ffffff;
+    opacity: 0.7;
+  }
+  .multiChain {
+    height: 100%;
+    width: 350px;
+  }
+  .multiChain h2 {
+    font-weight: 800;
+    font-size: 31.51px;
+    margin-bottom: 0;
+    letter-spacing: -2.07215px;
+    font-family: FuturaRegular;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 83px;
+  }
+  .multiChain h1 {
+    font-size: 51.51px;
+    line-height: 84px;
+    letter-spacing: -2.07215px;
+    font-family: FuturaRegular;
+    color: #ffffff;
+    margin-top: 0;
+    text-align: center;
+  }
+  .multichainLogoFirst {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .multichainLogoFirst img {
+    margin-left: -9px;
+    margin-top: 34px;
+  }
+  .tokenomics {
+    height: 100%;
+    width: 350px;
+  }
+  .tokenomics h2 {
+    font-weight: 800;
+    font-size: 31.51px;
+    margin-bottom: 0;
+    letter-spacing: -2.07215px;
+    font-family: FuturaRegular;
+    color: #ffffff;
+    margin-top: 151px;
+  }
+  .tokenomics h1 {
+    font-size: 51.51px;
+    line-height: 84px;
+    letter-spacing: -2.07215px;
+    font-family: FuturaRegular;
+    color: #ffffff;
+    margin-top: 0;
+  }
+  #chart {
+    margin-left: 1px;
+    width: 385px;
+    height: 358px;
+  }
+  .tokenomicsDirection {
+    display: flex;
+    width: 100%;
+    margin-left: 14px;
+    flex-direction: column;
+  }
+  .lastBannerBody {
+    width: 312px;
+    height: 164px;
+    background: url('./assets/Group\ 48095428.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .lastBannerBody h1 {
+    font-family: FuturaBold;
+    background: linear-gradient(180deg, #264732 0%, #828e4c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .lastBannerBody img {
+    cursor: pointer;
+    width: 175px;
+    height: 52.91px;
+  }
+  .footer {
+    height: 1000px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .footerTwo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 51px;
+    margin-right: 55px;
+  }
+  .navsocial {
+    display: block !important;
+  }
+  .footerTwo {
+    display: flex;
+    flex-direction: column;
+    margin-top: -60px;
+    margin-right: 57px;
+  }
+  .footerSocial {
+    display: flex;
+    margin-top: -65px;
+  }
+  .rightAvnFirstTop {
+    display: flex;
+    flex-direction: column;
+    margin-left: 33px;
+  }
 }

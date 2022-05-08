@@ -1,0 +1,671 @@
+@font-face {
+  font-family: FuturaRegular;
+  src: url('./fonts/Futura\ Book\ font.ttf');
+}
+@font-face {
+  font-family: FuturaMedium;
+  src: url('./fonts/futura\ medium\ bt.ttf');
+}
+@font-face {
+  font-family: FuturaBold;
+  src: url('./fonts/Futura\ Bold\ font.ttf');
+}
+@font-face {
+  font-family: FuturaLight;
+  src: url('./fonts/futura\ light\ bt.ttf');
+}
+a {
+  text-decoration: none;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #152a25;
+}
+.infoHome {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('./assets/info/Group\ 48095534.png'),
+    url('./assets/info/Group\ 48095535.png'),
+    url('./assets/info/Group\ 48095538.png'),
+    url('./assets/info/Group\ 48095539.png');
+  background-position: left top, left 1400px, left 3200px, left bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 1400px, 100% 1900px, 100% 2600px, 100% 1300px;
+}
+.infoNav {
+  width: 1140px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.infoHero {
+  width: 800px;
+}
+.avnRichTOken img {
+  cursor: pointer;
+}
+.infoHero h1 {
+  font-weight: 800;
+  font-size: 71.51px;
+
+  letter-spacing: -2.07215px;
+  font-family: FuturaRegular;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.infoHero h2 {
+  font-weight: 800;
+  font-size: 52.51px;
+  margin-top: 0;
+  letter-spacing: -2.07215px;
+  font-family: FuturaRegular;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.infoHero h3 {
+  font-weight: 800;
+  font-size: 41.51px;
+  margin-top: 20px;
+  letter-spacing: -2.07215px;
+  font-family: FuturaRegular;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.infoHero p {
+  font-weight: 300;
+  font-size: 17.51px;
+  margin-top: 20px;
+
+  font-family: FuturaRegular;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.infoHeroButtons {
+  height: 60px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+#buyAVNBUtton {
+  margin-top: 25px;
+  margin-left: -20px;
+  margin-right: 20px;
+}
+.infoHeroButtons img {
+  cursor: pointer;
+}
+.avnRichTOken {
+  margin-top: 500px;
+  width: 950px;
+}
+.avnRIchPartner {
+  width: 897px;
+}
+.avnRIchPartner h2 {
+  font-weight: 800;
+  font-size: 52.51px;
+  font-family: FuturaRegular;
+  letter-spacing: -2.07215px;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+.avnRIchPartner h1 {
+  font-weight: 800;
+  font-size: 71.51px;
+  font-family: FuturaRegular;
+  letter-spacing: -2.07215px;
+  margin-top: 0;
+  color: #ffffff;
+}
+.firstPartner {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+#avnRichExchange h2 {
+  text-align: right;
+  margin-top: 150px;
+}
+#avnRichExchange h1 {
+  text-align: right;
+}
+#lastExchange {
+  margin-right: 150px;
+}
+.howToParticipate {
+  width: 897px;
+}
+.howToParticipate h2 {
+  margin-top: 190px;
+  font-weight: 800;
+  margin-bottom: 0;
+  font-size: 52.51px;
+  letter-spacing: -2.07215px;
+  font-family: FuturaRegular;
+  color: #ffffff;
+}
+.howToParticipate h1 {
+  font-weight: 800;
+  margin-bottom: 0;
+  font-size: 71.51px;
+  letter-spacing: -2.07215px;
+  font-family: FuturaRegular;
+  color: #ffffff;
+  margin-top: 0;
+}
+.firstPart {
+  width: 924px;
+  height: 257px;
+  background: url('./assets/info/Whitelist.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  margin-top: 50px;
+}
+.firstPart {
+  display: flex;
+  width: 100%;
+}
+.leftFirstPart h4 {
+  font-weight: 400;
+  font-size: 20.51px;
+  color: #ffffff;
+  font-family: FuturaRegular;
+  margin-bottom: 10px;
+}
+.leftFirstPart p {
+  font-weight: 300;
+  font-size: 15.51px;
+  color: #ffffff;
+  font-family: FuturaRegular;
+  opacity: 0.8;
+  margin-top: 0;
+}
+.leftFirstPart {
+  width: 30%;
+  margin-top: 50px;
+}
+#whiteLIstFirst {
+  margin-left: 70px;
+}
+.secondPart {
+  width: 100%;
+  height: 392px;
+  background: url('./assets/info/Round\ 1.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  margin-top: 30px;
+  margin-left: 30px;
+  display: flex;
+}
+.leftFirstPart h3 {
+  font-weight: 400;
+  font-size: 15.51px;
+  line-height: 22px;
+  /* or 142% */
+
+  text-decoration-line: underline;
+  font-family: FuturaRegular;
+  color: #e0fe4c;
+}
+#secondPardWhite {
+  margin-left: 40px;
+}
+#thirdPart {
+  height: 315px;
+}
+.why {
+  width: 897px;
+}
+.why h2 {
+  font-weight: 800;
+  font-size: 52.51px;
+  font-family: FuturaRegular;
+  letter-spacing: -2.07215px;
+  margin-bottom: 0;
+  color: #ffffff;
+  text-align: right;
+  margin-top: 50px;
+}
+.why h1 {
+  font-weight: 800;
+  font-size: 71.51px;
+  font-family: FuturaRegular;
+  letter-spacing: -2.07215px;
+  margin-top: 0;
+  color: #ffffff;
+  text-align: right;
+}
+.richfirstLineLeft {
+  width: 290px;
+  height: 210.87px;
+  background: linear-gradient(
+    112.48deg,
+    rgba(255, 255, 255, 0.1) 6.31%,
+    rgba(255, 255, 255, 0) 98.51%
+  );
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(40px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 24px;
+}
+.richFirstRight {
+  width: 559.59px;
+  height: 212.05px;
+  background: linear-gradient(
+    112.48deg,
+    rgba(255, 255, 255, 0.1) 6.31%,
+    rgba(255, 255, 255, 0) 98.51%
+  );
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(40px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 24px;
+}
+.richfirstLine {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.dialoguestittle {
+  font-weight: 400;
+  font-size: 20.51px;
+  color: #ffffff;
+  font-family: FuturaRegular;
+  margin: 20px 30px;
+}
+.dialogueDetials {
+  font-weight: 300;
+  font-size: 15.51px;
+  color: #ffffff;
+  font-family: FuturaRegular;
+  margin: 0px 30px;
+}
+.richThirdOne {
+  width: 892px;
+  height: 212.05px;
+  background: linear-gradient(
+    112.48deg,
+    rgba(255, 255, 255, 0.1) 6.31%,
+    rgba(255, 255, 255, 0) 98.51%
+  );
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(40px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 24px;
+}
+
+.team {
+  width: 897px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team h1 {
+  font-weight: 8 00;
+  font-size: 52.51px;
+  letter-spacing: -2.07215px;
+  font-family: FuturaRegular;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+#teamW {
+  font-size: 71.51px;
+}
+.team p {
+  font-weight: 300;
+  font-size: 15.51px;
+  color: #ffffff;
+  font-family: FuturaRegular;
+  text-align: center;
+  margin-top: 20px;
+}
+.teamMain {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.teamMain p {
+  font-weight: 800;
+  font-size: 20.51px;
+  color: #ffffff;
+  font-family: FuturaRegular;
+  margin-bottom: 0;
+}
+.teamMain h6 {
+  font-weight: 300;
+  font-size: 15.51px;
+  color: #ffffff;
+  font-family: FuturaRegular;
+  margin-top: 10px;
+}
+.lastBannerBody p {
+  background: linear-gradient(180deg, #264732 0%, #828e4c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 400;
+  font-size: 23px;
+  font-family: FuturaRegular;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .infoHero {
+    width: 350px;
+  }
+  .infoHero h1 {
+    font-weight: 800;
+    font-size: 47.51px;
+    letter-spacing: -2.07215px;
+    font-family: FuturaRegular;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 501px;
+  }
+  .infoHero h2 {
+    font-weight: 800;
+    font-size: 33.51px;
+    margin-top: 0;
+    letter-spacing: -2.07215px;
+    font-family: FuturaRegular;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+  .infoHero h3 {
+    font-weight: 800;
+    font-size: 28.51px;
+    margin-top: 20px;
+    letter-spacing: -2.07215px;
+    font-family: FuturaRegular;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+  .infoHero p {
+    font-weight: 100;
+    font-size: 15.51px;
+    margin-top: 27px;
+    font-family: FuturaRegular;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+  #buyAVNBUtton {
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: 20px;
+    width: 142px;
+    height: 62px;
+  }
+  .infoHeroButtons img {
+    cursor: pointer;
+    width: 121px;
+    height: 50px;
+  }
+  .avnRichTOken {
+    margin-top: 50px;
+    width: 350px;
+  }
+  .avnRichTOken img {
+    width: 350.28px;
+    height: 310.01px;
+  }
+  .avnRIchPartner {
+    width: 350px;
+  }
+  .avnRIchPartner h2 {
+    font-weight: 800;
+    font-size: 32.51px;
+    font-family: FuturaRegular;
+    letter-spacing: -2.07215px;
+    margin-bottom: 0;
+    color: #ffffff;
+  }
+  .avnRIchPartner h1 {
+    font-weight: 800;
+    font-size: 52.51px;
+    font-family: FuturaRegular;
+    letter-spacing: -2.07215px;
+    margin-top: 0;
+    color: #ffffff;
+  }
+  .firstPartner {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .firstPartner img {
+    width: 200px;
+    margin-top: 30px;
+  }
+  #lastPartodfsj {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  #lastExchange {
+    margin-right: 0px;
+    margin: 30px 0px;
+  }
+  .howToParticipate {
+    width: 350px;
+  }
+  .firstPart {
+    width: 350px;
+    height: 100%;
+    background: url('./assets/info/Round\ 2.svg');
+    background-size: 95% 103%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-top: 50px;
+    padding: 0px;
+  }
+  #whiteLIstFirst {
+    margin-left: 0px;
+    margin-top: 1px;
+  }
+  .firstPart {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .leftFirstPart {
+    width: 82%;
+    margin-top: 50px;
+  }
+  #whiteLIstFirst {
+    margin-left: 0px;
+    margin-top: 118px;
+  }
+  .secondPart {
+    width: 100%;
+    height: 100%;
+    background: url('./assets/info/Round\ 1.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-top: 30px;
+    margin-left: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+  }
+  #secondPardWhite {
+    margin-left: 0px;
+  }
+  #thirdPart {
+    height: 100%;
+  }
+  #whiteLIstFirst {
+    margin-left: 0px;
+    margin-top: 32px;
+  }
+  .why {
+    width: 350px;
+  }
+  .why h2 {
+    font-weight: 800;
+    font-size: 32.51px;
+    font-family: FuturaRegular;
+    letter-spacing: -2.07215px;
+    margin-bottom: 0;
+    color: #ffffff;
+    text-align: right;
+    margin-top: 50px;
+  }
+  .why h1 {
+    font-weight: 800;
+    font-size: 50.51px;
+    font-family: FuturaRegular;
+    letter-spacing: -2.07215px;
+    margin-top: 0;
+    color: #ffffff;
+    text-align: right;
+  }
+  .richfirstLine {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .richFirstRight {
+    width: 294px;
+    height: 230.05px;
+    background: linear-gradient(
+      112.48deg,
+      rgba(255, 255, 255, 0.1) 6.31%,
+      rgba(255, 255, 255, 0) 98.51%
+    );
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(40px);
+    border-radius: 24px;
+    margin-top: 20px;
+  }
+  .richfirstLineLeft {
+    width: 290px;
+    height: 210.87px;
+    background: linear-gradient(
+      112.48deg,
+      rgba(255, 255, 255, 0.1) 6.31%,
+      rgba(255, 255, 255, 0) 98.51%
+    );
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(40px);
+    border-radius: 24px;
+    margin-top: 20px;
+  }
+  .richThirdOne {
+    width: 293px;
+    height: 399px;
+    background: linear-gradient(
+      112.48deg,
+      rgba(255, 255, 255, 0.1) 6.31%,
+      rgba(255, 255, 255, 0) 98.51%
+    );
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(40px);
+    border-radius: 24px;
+    margin-top: 20px;
+  }
+  .richfirstLine {
+    margin-top: 0;
+  }
+  .team h1 {
+    font-size: 32.51px;
+    margin-top: 300px;
+  }
+  #teamW {
+    font-size: 52.51px;
+  }
+  .teamMain {
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  .teamMainContent {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .teamMain p {
+    font-weight: 800;
+    font-size: 16.51px;
+    color: #ffffff;
+    font-family: FuturaRegular;
+    margin-bottom: 0;
+  }
+  .teamMain h6 {
+    font-weight: 300;
+    font-size: 11.51px;
+    color: #ffffff;
+    font-family: FuturaRegular;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .lastBannerBody p {
+    font-size: 16px;
+  }
+  .lastBannerBody h1 {
+    font-size: 23px;
+  }
+  .lastBannerBody {
+    width: 256px;
+    height: 192px;
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 17px;
+    text-align: center;
+  }
+
+  .infoHome {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('./assets/info/infoMobFirst.png'),
+      url('./assets/info/scond.png'), url('./assets/info/third.png'),
+      url('./assets/info/fourth.png'), url('./assets/info/fifth.png'),
+      url('./assets/info/six.png'), url('./assets/info/seven.png');
+    background-position: left top, left 1200px, left 2500px, left 3300px,
+      left 6200px, left 8200px, left 9300px;
+    background-repeat: no-repeat;
+    background-size: 100% 1372px, 100% 600px, 100% 489px, 100% 2400px,
+      100% 1945px, 100% 1000px, 100% 1229px;
+  }
+}

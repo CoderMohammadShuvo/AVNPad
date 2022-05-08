@@ -24,7 +24,12 @@ body {
   align-items: center;
   background-color: #152a25;
 }
-
+#barWeb {
+  display: block;
+  margin-left: 20px;
+  margin-top: 5px;
+  cursor: pointer;
+}
 .home {
   overflow: hidden;
   width: 100%;
@@ -41,12 +46,62 @@ body {
   background-position: left 300px, left 1800px, left 3000px, left 4100px,
     left 4800px, left 6800px;
 }
+#bar {
+  display: none;
+}
+.navWebDetails {
+  width: 100%;
+  height: 100vh;
+  background: url('./assets/side\ menu\ overlay\ web.png');
+  background-size: 100% 100%;
+  background-position: top left;
+  background-repeat: no-repeat;
+  display: none;
+}
 .navbar {
   width: 1140px;
   height: 140px;
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.rightSideNav {
+  display: flex;
+}
+#navMob {
+  display: none;
+}
+.topMobNav {
+  width: 350px;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+#navWebDetailsClose {
+  margin-left: 90%;
+  margin-top: 50px;
+}
+.navWebDetailsOption {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80%;
+}
+.navWebDetailsOption a {
+  text-decoration: none;
+
+  font-weight: 400;
+  font-size: 13.51px;
+  color: #ffffff;
+  font-family: FuturaRegular;
+  margin-top: 30px;
+}
+.navbarMobile {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 .socialLink {
@@ -1134,5 +1189,52 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 33px;
+  }
+  .navbarMobile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background: url('./assets/launchpad/Launchpad\ mob\ -\ side\ menu.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
+
+  #navMob {
+    display: none;
+  }
+  .topMobNav {
+    width: 350px;
+  }
+  #navMobLogo {
+    margin-left: 10%;
+  }
+  .navMoboption {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .navMoboption a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13.51px;
+    color: #ffffff;
+    font-family: FuturaRegular;
+    margin-top: 30px;
+  }
+  .navMobSocial {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  #bar {
+    display: block;
+  }
+  #barWeb {
+    display: none;
   }
 }

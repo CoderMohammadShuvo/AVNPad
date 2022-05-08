@@ -1,0 +1,310 @@
+@font-face {
+  font-family: FuturaRegular;
+  src: url('./fonts/Futura\ Book\ font.ttf');
+}
+@font-face {
+  font-family: FuturaMedium;
+  src: url('./fonts/futura\ medium\ bt.ttf');
+}
+@font-face {
+  font-family: FuturaBold;
+  src: url('./fonts/Futura\ Bold\ font.ttf');
+}
+@font-face {
+  font-family: FuturaLight;
+  src: url('./fonts/futura\ light\ bt.ttf');
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #152a25;
+}
+.stakingHome {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 2400px;
+  background: url('./assets/staking/Group\ 48095532.png'),
+    url('./assets/staking/Group\ 48095534.png');
+  background-repeat: no-repeat;
+  background-size: 100% 1318px, 100% 1587px;
+  background-position: left top, left bottom;
+}
+.stakingNav {
+  width: 1140px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+#connectButton {
+  width: 106px;
+  height: 46px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: none;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  font-family: FuturaRegular;
+  cursor: pointer;
+}
+.stakingNav p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  font-family: FuturaRegular;
+  margin-left: 500px;
+  cursor: pointer;
+}
+.navSocial {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#buyButton {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.stakingInputArea {
+  width: 896px;
+}
+.stakingInputHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.stakingInputHeader h1 {
+  font-weight: 400;
+  font-size: 52.51px;
+  letter-spacing: -2.07215px;
+  font-family: FuturaRegular;
+  color: #ffffff;
+  margin-bottom: 0;
+  margin-top: 500px;
+}
+.stakingInputMain {
+  width: 896px;
+  height: 336.6px;
+  background: linear-gradient(
+    112.48deg,
+    rgba(255, 255, 255, 0.1) 6.31%,
+    rgba(255, 255, 255, 0) 98.51%
+  );
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(40px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 24px;
+}
+.stakeInputAmount {
+  width: 742px;
+  height: 63px;
+  background: #0e1d19;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 79px;
+  margin-top: 0;
+}
+#balance {
+  font-weight: 400;
+  font-size: 15.51px;
+  color: #ffffff;
+  font-family: FuturaRegular;
+  opacity: 0.5;
+  margin-left: 40px;
+}
+.stakingInputMain h4 {
+  font-weight: 400;
+  font-size: 22.51px;
+  font-family: FuturaRegular;
+  color: #ffffff;
+  margin-left: 79px;
+  margin-bottom: 19px;
+  padding-top: 23px;
+}
+#avn {
+  font-weight: 400;
+  font-size: 15.51px;
+  color: #e0fe4c;
+  font-family: FuturaRegular;
+  margin-right: 29px;
+}
+#stakeButton {
+  margin-top: 27px;
+
+  margin-right: -19px;
+}
+#approve {
+  margin-top: 500px;
+  cursor: pointer;
+}
+#secondINput {
+  margin-top: 100px !important;
+}
+#secondINput h1 {
+  margin-top: 0 !important;
+}
+#secondINput a {
+  font-weight: 400;
+  font-size: 15.51px;
+  color: #e0fe4c;
+  font-family: FuturaRegular;
+  margin-top: 50px;
+}
+#secondInputMain {
+  height: 184px;
+}
+#thirdStakingHeader h1 {
+  margin-top: 100px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .stakingNav {
+    width: 350px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .stakingNav p {
+    display: none;
+  }
+  .navSocial {
+    display: none;
+  }
+  #buyButton {
+    display: none;
+  }
+  #connectButton {
+    display: none;
+  }
+  #stakingNavMob {
+    display: none !important;
+  }
+  .stakingNavMob {
+    display: none !important;
+  }
+  .stakingNavMob {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('./assets/launchpad/Launchpad\ mob\ -\ side\ menu.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
+  .stakingNavTop {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+  }
+  .stakingNavMob p {
+    font-weight: 400;
+    font-size: 13.51px;
+    color: #ffffff;
+    font-family: FuturaRegular;
+  }
+  .stakingMovNav {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .stakingMovNav button {
+    width: 106px;
+    height: 46px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 15px;
+    border: none;
+    font-weight: 800;
+    font-size: 13.51px;
+    color: #ffffff;
+    font-family: FuturaRegular;
+  }
+
+  .stakingHome {
+    height: 100%;
+  }
+  .stakingNavMob {
+    display: none;
+  }
+  .stakingInputArea {
+    width: 350px;
+  }
+  .stakingInputHeader h1 {
+    font-weight: 400;
+    font-size: 38.51px;
+    letter-spacing: -2.07215px;
+    font-family: FuturaRegular;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 442px;
+  }
+  #approve {
+    margin-top: 444px;
+    cursor: pointer;
+    width: 123px;
+    height: 72.49px;
+  }
+  .stakingInputMain {
+    width: 328px;
+    height: 336.6px;
+    background: linear-gradient(
+      112.48deg,
+      rgba(255, 255, 255, 0.1) 6.31%,
+      rgba(255, 255, 255, 0) 98.51%
+    );
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(40px);
+    border-radius: 24px;
+  }
+  .stakingInputMain h4 {
+    font-weight: 400;
+    font-size: 19.51px;
+    font-family: FuturaRegular;
+    color: #ffffff;
+    margin-left: 18px;
+    margin-bottom: 19px;
+    padding-top: 23px;
+  }
+  .stakeInputAmount {
+    width: 294px;
+    height: 63px;
+    background: #0e1d19;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 18px;
+    margin-top: 0;
+  }
+  .stakingHome {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: url('./assets/staking/Group\ 48095539.png'),
+      url('./assets/staking/Group\ 48095540.png');
+    background-repeat: no-repeat;
+    background-size: 100% 1489px, 100% 1400px;
+    background-position: left top, 100% 1400px;
+  }
+}

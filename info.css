@@ -40,6 +40,7 @@ body {
   background-position: left top, left 1400px, left 3200px, left bottom;
   background-repeat: no-repeat;
   background-size: 100% 1400px, 100% 1900px, 100% 2600px, 100% 1300px;
+  overflow: hidden;
 }
 .infoNav {
   width: 1140px;
@@ -130,9 +131,16 @@ body {
 .firstPartner {
   display: flex;
   width: 100%;
-  height: 100px;
+  height: 100%;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+.firstPartner img {
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 30px;
 }
 #avnRichExchange h2 {
   text-align: right;
@@ -368,7 +376,10 @@ body {
   font-family: FuturaRegular;
   margin-bottom: 0;
 }
-
+.firstPartner img {
+  width: 200px;
+  margin-top: 30px;
+}
 @media screen and (max-width: 768px) {
   .infoHero {
     width: 350px;
@@ -455,9 +466,10 @@ body {
     justify-content: center;
     flex-wrap: wrap;
   }
+
   .firstPartner img {
-    width: 200px;
-    margin-top: 30px;
+    width: 144px;
+    margin-top: 33px;
   }
   #lastPartodfsj {
     display: flex;
@@ -662,10 +674,28 @@ body {
       url('./assets/info/scond.png'), url('./assets/info/third.png'),
       url('./assets/info/fourth.png'), url('./assets/info/fifth.png'),
       url('./assets/info/six.png'), url('./assets/info/seven.png');
-    background-position: left top, left 1200px, left 2500px, left 3300px,
-      left 6200px, left 8200px, left 9300px;
+    background-position: left top, left 1500px, left 2000px, left 2600px,
+      left 5000px, left 7250px, left 8000px;
     background-repeat: no-repeat;
     background-size: 100% 1372px, 100% 600px, 100% 489px, 100% 2400px,
-      100% 1945px, 100% 1000px, 100% 1229px;
+      100% 2545px, 100% 1000px, 100% 1329px;
+  }
+  .howToParticipate h2 {
+    margin-top: 190px;
+    font-weight: 800;
+    margin-bottom: 0;
+    font-size: 32.51px;
+    letter-spacing: -2.07215px;
+    font-family: FuturaRegular;
+    color: #ffffff;
+  }
+  .howToParticipate h1 {
+    font-weight: 800;
+    margin-bottom: 0;
+    font-size: 51.51px;
+    letter-spacing: -2.07215px;
+    font-family: FuturaRegular;
+    color: #ffffff;
+    margin-top: 0;
   }
 }

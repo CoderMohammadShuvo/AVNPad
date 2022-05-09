@@ -41,10 +41,10 @@ body {
     url('./assets/Group\ 48095437.png'), url('./assets/bggddf.png'),
     url('./assets/token.png'), url('./assets/lastBg.png');
   background-repeat: no-repeat;
-  background-size: 100% 1457.18px, 100% 1400px, 100% 800px, 100% 1200px,
+  background-size: 100% 1330px, 100% 1400px, 100% 1100px, 100% 1300px,
     100% 2000px, 100% 1100px;
-  background-position: left 300px, left 1800px, left 3000px, left 4100px,
-    left 4800px, left 6800px;
+  background-position: left 00px, left 1800px, left 3000px, left 4300px,
+    left 5000px, left 6850px;
 }
 #bar {
   display: none;
@@ -169,11 +169,6 @@ body {
 .heroLeft {
   margin-left: 100px;
   width: 60%;
-
-  background: url('./assets/Group\ 48095370.png');
-  background-size: 100% 500px;
-  background-position: left top;
-  background-repeat: no-repeat;
 }
 #buyOnButton {
   width: 285px;
@@ -229,7 +224,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 250px;
+  margin-top: 350px;
 }
 .partners img {
   margin-right: 50px;
@@ -285,7 +280,7 @@ body {
 
 /* AVN REACH */
 .avnReach {
-  height: 1300px;
+  height: 100%;
   width: 1040px;
 }
 
@@ -298,7 +293,7 @@ body {
   text-align: right;
   margin-bottom: 0;
   margin-right: 50px;
-  margin-top: 50px;
+  margin-top: 250px;
 }
 
 .avnReach h1 {
@@ -427,6 +422,7 @@ body {
   color: #ffffff;
   margin-bottom: 0;
   margin-left: 50px;
+  margin-top: 100px;
 }
 .termsAndCondition h3 {
   font-weight: 800;
@@ -539,6 +535,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .multichainLogoFirst img {
   margin-left: 60px;
@@ -573,7 +570,7 @@ body {
 }
 .tokenomicsDirection {
   display: flex;
-  width: 60%;
+  width: 100%;
   margin-left: 200px;
 }
 .tokenomicsDirection img {
@@ -614,7 +611,8 @@ body {
   cursor: pointer;
 }
 .footer {
-  height: 400px;
+  height: 100%;
+  margin-bottom: 50px;
   width: 1140px;
   display: flex;
   justify-content: space-between;
@@ -680,7 +678,13 @@ body {
 .footerSocial {
   margin-top: 100px;
 }
-
+.tokenomicsLeft {
+  display: flex;
+  flex-wrap: wrap;
+}
+#homeFooter {
+  margin-top: 150px;
+}
 @media only screen and (max-width: 768px) {
   .home {
     width: 100%;
@@ -688,14 +692,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url('./assets/mobFirstBg.png'),
-      url('./assets/Group\ 48095456.png'), url('./assets/Group\ 48095457.png'),
-      url('./assets/Group\ 48095458.png'), url('./assets/Group\ 48095459.png'),
-      url('./assets/Group\ 48095460.png');
-    background-size: 100% 871px, 100% 1700px, 100% 2320px, 100% 1400px,
-      100% 650px, 100% 1300px;
-    background-position: left 800px, left 1700px, left 3500px, left 5700px,
-      left 7700px, left 8700px;
+    background: url('./assets/Group\ 48095547.png'),
+      url('./assets/Group\ 48095544.png'), url('./assets/Group\ 48095545.png'),
+      url('./assets/Group\ 48095546.png'), url('./assets/avnRichBg.png'),
+      url('./assets/fourthBg.png'), url('./assets/fifthBg.png');
+    background-size: 100% 1374px, 323px 500px, 100% 2700px, 100% 1600px,
+      100% 1395px, 100% 1225px, 100% 1390px;
+    background-position: left top, right 1200px, left 1300px, left 4060px,
+      left 5400px, left 6600px, left 7800px;
     background-repeat: no-repeat;
   }
   .navbar {
@@ -714,11 +718,12 @@ body {
     width: 350px;
     display: flex;
     flex-direction: column-reverse;
+    margin-top: 410px;
   }
   .heroLeft {
     margin-left: 0px;
     width: 100%;
-    background: url('./assets/Group\ 48095370.png');
+    background: none;
     background-size: 100% 500px;
     background-position: left top;
     background-repeat: no-repeat;
@@ -741,6 +746,7 @@ body {
     letter-spacing: -2.07215px;
     line-height: 84px;
     margin-bottom: 0;
+    margin-top: 127px;
   }
   .heroLeft h2 {
     font-family: FuturaRegular;
@@ -820,7 +826,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 88px;
+    margin-top: 23px;
     flex-wrap: wrap;
   }
   .partners img {
@@ -829,7 +835,7 @@ body {
   }
   .contractAddress {
     width: 350px;
-    height: 408.15px;
+    height: 329.15px;
     padding-left: 0px;
     background: url('./assets/Group\ 48095435.svg');
     background-size: 100% 100%;
@@ -852,6 +858,15 @@ body {
     font-family: FuturaRegular;
     margin-top: 0;
     margin-bottom: 20px;
+  }
+  .tokenomicsLeft {
+    margin-top: 25px;
+  }
+  .tokenomicsDirection img {
+    margin-top: -54px;
+    margin-right: 17px;
+    width: 153.36px;
+    height: 93.55px;
   }
   .walletAddress {
     width: 100%;
@@ -990,6 +1005,7 @@ body {
     color: #ffffff;
     margin-bottom: 0;
     margin-left: 10px;
+    margin-top: 179px;
   }
   .termsAndCondition h3 {
     font-weight: 800;
@@ -1004,8 +1020,8 @@ body {
   .termsAndCondionBox {
     margin-left: 0px;
     width: 350px;
-    height: 100%;
-    background: url('./assets/tandc.png');
+    height: 90%;
+    background: url('./assets/dfsdfsadf.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: left top;
@@ -1018,23 +1034,27 @@ body {
     display: flex;
     align-items: center;
     margin-left: 19px;
-    margin-bottom: 51px;
+    margin-bottom: 40px;
   }
   .tandcFirst p {
     font-family: FuturaRegular;
     font-weight: 400;
     font-size: 10.51px;
     color: #ffffff;
-    margin-left: 6px;
-    margin-right: 17px;
+    margin-left: 10px;
+    margin-right: 30px;
   }
   #tandcOther {
     font-weight: 500;
     font-size: 11.51px;
     color: #e0fe4c;
     font-family: FuturaMedium;
-    margin-left: 29px;
+    margin-left: 42px;
     margin-top: 50px;
+    margin-right: 47px;
+  }
+  .tandcFirst img {
+    margin-left: 20px;
   }
   .avnRich {
     height: 100%;
@@ -1042,13 +1062,14 @@ body {
   }
   .avnRich h2 {
     font-weight: 800;
-    font-size: 31.51px;
+    font-size: 32.51px;
     margin-bottom: 0;
     letter-spacing: -2.07215px;
     font-family: FuturaRegular;
     color: #ffffff;
     margin-left: 0px;
-    margin-top: 514px;
+    margin-top: 504px;
+    text-align: right;
   }
   .avnRich h1 {
     font-size: 50.51px;
@@ -1058,6 +1079,7 @@ body {
     color: #ffffff;
     margin-top: 0;
     margin-left: 0;
+    text-align: right;
   }
   .avnRich p {
     font-size: 14.51px;
@@ -1065,6 +1087,7 @@ body {
     font-family: FuturaRegular;
     color: #ffffff;
     opacity: 0.7;
+    margin: 0px 20px;
   }
   .multiChain {
     height: 100%;
@@ -1079,6 +1102,12 @@ body {
     color: #ffffff;
     text-align: center;
     margin-top: 83px;
+  }
+  .termsAndCondionBox {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
   }
   .multiChain h1 {
     font-size: 51.51px;
@@ -1097,8 +1126,10 @@ body {
     flex-wrap: wrap;
   }
   .multichainLogoFirst img {
-    margin-left: -9px;
+    margin-left: 34px;
     margin-top: 34px;
+    width: 132.06px;
+    height: 30.22px;
   }
   .tokenomics {
     height: 100%;
@@ -1111,7 +1142,7 @@ body {
     letter-spacing: -2.07215px;
     font-family: FuturaRegular;
     color: #ffffff;
-    margin-top: 151px;
+    margin-top: 351px;
   }
   .tokenomics h1 {
     font-size: 51.51px;
@@ -1133,8 +1164,8 @@ body {
     flex-direction: column;
   }
   .lastBannerBody {
-    width: 312px;
-    height: 164px;
+    width: 310px;
+    height: 208px;
     background: url('./assets/Group\ 48095428.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -1143,6 +1174,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* padding: 0px 30px; */
+    margin-top: 182px;
   }
   .lastBannerBody h1 {
     font-family: FuturaBold;
@@ -1160,11 +1193,12 @@ body {
     height: 52.91px;
   }
   .footer {
-    height: 1000px;
+    height: 100%;
     width: 350px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 91px;
   }
   .footerTwo {
     display: flex;
@@ -1178,12 +1212,12 @@ body {
   .footerTwo {
     display: flex;
     flex-direction: column;
-    margin-top: -60px;
+    margin-top: 0px;
     margin-right: 57px;
   }
   .footerSocial {
     display: flex;
-    margin-top: -65px;
+    margin-top: 20px;
   }
   .rightAvnFirstTop {
     display: flex;

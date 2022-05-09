@@ -38,7 +38,7 @@ a {
   align-items: center;
   background: url('./assets/launchpad/Group\ 48095516.png'),
     url('./assets/launchpad/BG\ \(4\).png');
-  background-size: 100% 1400px, 100% 1315px;
+  background-size: 100% 1600px, 100% 1315px;
   background-repeat: no-repeat;
   background-position: left top, left 1400px;
   overflow: hidden;
@@ -86,9 +86,8 @@ a {
 }
 .launchpadHero {
   width: 1140px;
-
   padding-left: 300px;
-  margin-top: 50px;
+  margin-top: -9px;
 }
 .launchpadHero h1 {
   font-family: FuturaRegular;
@@ -189,14 +188,14 @@ a {
   justify-content: space-between;
 }
 .coinBuyDetails p {
-  font-weight: 800;
+  font-weight: 400;
   font-size: 15.51px;
   font-family: FuturaRegular;
   color: white;
 }
 .coinBuyDetails a {
   text-decoration: underline !important;
-  font-weight: 800;
+  font-weight: 400;
   font-size: 15.51px;
   font-family: FuturaRegular;
   color: #e0fe4c;
@@ -222,7 +221,7 @@ a {
   flex-wrap: wrap;
 }
 .accountInfoDetails p {
-  font-weight: 800;
+  font-weight: 400;
   font-size: 15.51px;
   font-family: FuturaRegular;
   color: white;
@@ -250,7 +249,7 @@ a {
   padding-left: 300px !important;
 }
 #valueFinance p {
-  font-weight: 800;
+  font-weight: 400;
   font-size: 15.51px;
   font-family: FuturaRegular;
   color: white;
@@ -262,7 +261,10 @@ a {
 .launchPadMobNav {
   display: none;
 }
-
+#launchpadFooter {
+  margin-top: 100px;
+  height: 330px;
+}
 @media screen and (max-width: 768px) {
   .launchPadMobNav {
     width: 100%;
@@ -323,14 +325,14 @@ a {
   }
   .launchpadHero {
     width: 350px;
-    padding-left: 0;
-    margin-top: 157px;
+    padding-left: 27px;
+    margin-top: 205px;
   }
   .launchpadHero h1 {
     font-size: 38.51px;
   }
   .buyCoinArea {
-    width: 321px;
+    width: 296px;
     height: 517px;
     background: linear-gradient(
       112.48deg,
@@ -346,13 +348,13 @@ a {
     margin-top: 20px;
   }
   .buyCoinArea input {
-    width: 276px;
+    width: 270px;
   }
   .coinBuyDetails {
     display: flex;
     height: 30px;
     align-items: center;
-    width: 350px;
+    width: 316px;
     justify-content: space-between;
   }
   .coinBuyDetails a {
@@ -369,9 +371,10 @@ a {
     font-size: 38.51px;
     color: #ffffff;
     letter-spacing: -2.07215px;
+    margin-left: 14px;
   }
   .accountInfoDetails {
-    width: 350px;
+    width: 321px;
     height: 406.63px;
     background: linear-gradient(
       112.48deg,
@@ -384,9 +387,11 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 13px;
   }
   .accountInfoDetails p {
     margin-left: 0;
+    width: 248px;
   }
   #valueFinance {
     padding-left: 0px !important;
@@ -402,9 +407,58 @@ a {
     background: url('./assets/launchpad/Group\ 48095535.png'),
       url('./assets/launchpad/Group\ 48095536.png'),
       url('./assets/launchpad/Group\ 48095537.png');
-    background-size: 100% 863px, 100% 1412px, 100% 1400px;
+    background-size: 100% 763px, 100% 1412px, 100% 1600px;
     background-repeat: no-repeat;
     background-position: left top, right 663px, left 1900px;
     overflow: hidden;
+  }
+  .heroButtonArea button {
+    width: 102px;
+    height: 51px;
+    background: #0e1d19;
+    border-radius: 16px;
+    color: #e0fe4c;
+    font-family: FuturaMedium;
+    font-weight: 500;
+    font-size: 23px;
+    border: none;
+    cursor: pointer;
+    margin-right: 7px;
+  }
+  .buyCoinArea h6 {
+    font-size: 15.51px;
+    font-family: FuturaRegular;
+    font-weight: 400;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  .buyCoinArea p {
+    /* font-weight: 800; */
+    font-size: 15.51px;
+    font-family: FuturaRegular;
+    font-weight: 400;
+    color: white;
+    margin-top: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .buyCoinArea img {
+    width: 123px;
+    height: 73px;
+    cursor: pointer;
+    margin-left: -8px;
+    margin-top: 20px;
+  }
+  #valueFinance p {
+    margin-left: 14px;
+  }
+  #launchpadFooter {
+    margin-top: 100px;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+  .footerOne {
+    margin-top: 175px;
   }
 }

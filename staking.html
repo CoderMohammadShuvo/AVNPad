@@ -43,22 +43,39 @@
         <img src="assets/Group 48095369.svg" alt="" id="bar" />
       </div>
 
-      <div class="stakingNavMob" id="stakingNavMob">
-        <div class="stakingNavTop">
+      <div class="stakingMObNavigation" id="stakingMObNavigation">
+        <div class="firstMobNavStake">
           <img src="assets/Group 48095377.svg" alt="" />
+          <img src="assets/Group 48095517.svg" alt="" id="nai" />
+        </div>
+        <p id="stakingMobLaunchPad">Launchpad</p>
+        <div class="stakingNavMobSocial">
+          <a href="https://twitter.com/avnrich" target="_blank"
+            ><img
+              src="assets/Group 48095388.svg"
+              alt=""
+              class="socialLink navsocial"
+          /></a>
+          <a href="https://t.me/AVNRich_Chat" target="_blank">
+            <img
+              src="assets/Group 48095387.svg"
+              alt=""
+              class="socialLink navsocial"
+          /></a>
+          <a href="https://avnrich.medium.com/" target="_blank">
+            <img
+              src="assets/Group 48095386.svg"
+              alt=""
+              class="socialLink navsocial"
+          /></a>
+        </div>
 
-          <img src="assets/Group 48095517.svg" alt="" />
-        </div>
-        <p>Launchpad</p>
-        <div class="stakingNavSocial">
-          <img src="assets/Group 48095388.svg" alt="" />
-          <img src="assets/Group 48095387.svg" alt="" />
-          <img src="assets/Group 48095386.svg" alt="" />
-        </div>
-        <div class="stakingMovNav">
-          <img src="./assets/staking/Group 48095447.svg" alt="" />
-          <button>CONNECT</button>
-        </div>
+        <img
+          src="./assets/staking/Group 48095447.svg"
+          alt=""
+          id="stakeMObAVN"
+        />
+        <button id="stakeMObBTN">CONNECT</button>
       </div>
 
       <div class="stakingInputArea">
@@ -120,7 +137,7 @@
         </div>
       </div>
 
-      <div class="footer">
+      <div class="footer" id="stakingFootre">
         <div class="footerOne">
           <img src="assets/Group 48095377.svg" alt="" />
           <p>
@@ -207,17 +224,20 @@
     <script>
       const bar = document.getElementById("bar");
       const stakingNav = document.getElementById("stakingNav");
-      const stakingNavMob = document.getElementById("stakingNavMob");
+      const stakingMObNavigation = document.getElementById(
+        "stakingMObNavigation"
+      );
+      const nai = document.getElementById("nai");
       bar.addEventListener("click", () => {
         stakingNav.style.display = "none";
-        stakingNavMob.style.display = "block";
-        stakingNavMob.style.display = "flex";
-        stakingNavMob.style.flexDirection = "column";
-        stakingNavMob.style.alignItems = "center";
+        stakingMObNavigation.style.display = "block";
+        stakingMObNavigation.style.display = "flex";
+        stakingMObNavigation.style.flexDirection = "column";
+        stakingMObNavigation.style.alignItems = "center";
       });
-      stakingNavMob.addEventListener("click", () => {
-        stakingNavMob.style.display = "none";
+      nai.addEventListener("click", () => {
         stakingNav.style.display = "block";
+        stakingMObNavigation.style.display = "none";
         stakingNav.style.display = "flex";
       });
     </script>
